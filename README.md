@@ -15,12 +15,6 @@ It provides a tabbed category view, product listing with prices, quantity select
 - **Frontend:** Bootstrap, Font Awesome, JavaScript/jQuery
 - **Templating:** Blade for rendering categories and products
 
-## Structure
-- `@extends('layout')` → Uses a shared layout template
-- Categories (`$cats`) are displayed as navigation tabs
-- Items (`$fortabs`) are shown in tabbed content with price and quantity
-- Cart displayed on the right with Bootstrap cards
-
 ## Usage
 1. Browse categories and select items.
 2. Choose desired quantity (0–10).
